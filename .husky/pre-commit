@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+node "./verify-dependencies.mjs"
+npx lint-staged -c ./lint-staged.config.mjs --concurrent false

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowUmdGlobalAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "~atoms": ["./src/components/atoms"],
+      "~molecules": ["./src/components/molecules"],
+      "~organisms": ["./src/components/organisms"],
+      "~templates": ["./src/components/templates"],
+      "~pages": ["./src/components/pages"],
+      "~contexts": ["./src/contexts"],
+      "~enums": ["./src/types/enums"],
+      "~interfaces": ["src/types/interfaces"],
+      "~hooks": ["./src/hooks"],
+      "~api": ["./src/services/api/axios"],
+      "~query": ["./src/services/api/react-query"],
+      "~utils": ["./src/utils"]
+    }
+  },
+  "include": ["src"]
+}

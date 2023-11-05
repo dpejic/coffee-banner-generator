@@ -1,0 +1,6 @@
+tailwind.config.js
+lint-staged.config.mjs
+commitlint.config.mjs
+verify-dependencies.mjs
+craco.config.ts
+custom.d.ts
