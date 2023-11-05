@@ -20,7 +20,7 @@ const PreviewCard = () => {
   const bannerWidthNumber = extractNumberFromConcatenatedString(bannerWidth)
 
   return (
-    <div
+    <section
       style={{
         border: '1px solid #9A9A9F',
         width: bannerWidth,
@@ -35,7 +35,7 @@ const PreviewCard = () => {
         width={bannerWidthNumber || 300}
         widthType={selectedWidth}
       />
-    </div>
+    </section>
   )
 }
 

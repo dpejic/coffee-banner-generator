@@ -8,7 +8,7 @@ const StepCardMainContent = () => {
   } = useCoffeeContext()
 
   return (
-    <main>
+    <main className="px-4 py-5">
       <MainFactory step={step} />
     </main>
   )

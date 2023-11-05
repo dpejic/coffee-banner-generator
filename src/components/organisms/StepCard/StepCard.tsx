@@ -8,10 +8,8 @@ const StepCard = ({ className }: IStepCardProps) => {
   return (
     <section className={classNames('w-full max-w-[834px] h-max shadow-md rounded-b-lg', className)}>
       <StepCardHeader />
-      <div className="px-4 py-5">
-        <StepCardMainContent />
-        <StepCardFooter />
-      </div>
+      <StepCardMainContent />
+      <StepCardFooter />
     </section>
   )
 }

@@ -37,7 +37,7 @@ const StepCardFooter = () => {
   }
 
   return (
-    <footer className="flex justify-end pt-7">
+    <footer className="flex justify-end pt-7 px-4 pb-5">
       {openModal && <ViewCodeModal openModal={openModal} onClose={onCloseModal} />}
       {state.step === StepCoffee.STEP3 && (
         <Button
