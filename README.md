@@ -3,6 +3,8 @@
 This is the Coffee Banner Generator app, a tool to create beautiful banners for your coffee-related projects.
 The project follows the **Atom Architecture** design pattern, providing a structured and scalable approach to building applications.
 
+You can check out the Coffee Banner Generator app here https://coffee-banner-generator-dpejic.netlify.app/
+
 ## Technologies and Tools Used
 
 This project is built using various technologies and tools, including:
