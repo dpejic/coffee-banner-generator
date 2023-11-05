@@ -52,13 +52,7 @@ const StepCardFooter = () => {
           onClick={startOver}
         />
       )}
-      <Button
-        variant={ButtonVariant.button}
-        text={stepFooterButtonSteps(state.step)}
-        onClick={handleNextStep}
-        icon={<Icon variant={IconVariant.coder} fill={'none'} width={20} height={10} />}
-        iconPosition={IconPosition.LEFT}
-      />
+      <Button variant={ButtonVariant.button} text={stepFooterButtonSteps(state.step)} onClick={handleNextStep} />
     </footer>
   )
 }
